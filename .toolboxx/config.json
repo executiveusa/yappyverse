@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "initialized": "2025-08-27T00:12:44.981Z",
+  "tools": [
+    "code-analysis",
+    "testing",
+    "deployment",
+    "monitoring",
+    "security",
+    "documentation",
+    "collaboration"
+  ],
+  "features": {
+    "monetization": false,
+    "voiceCommands": false,
+    "agentProtocol": true,
+    "githubIntegration": false
+  }
+}

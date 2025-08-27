@@ -1,0 +1,43 @@
+node_modules/
+dist/
+.env
+*.log
+coverage/
+.nyc_output/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+tmp/
+temp/
+
+# Runtime files
+pids/
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Dependencies
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
