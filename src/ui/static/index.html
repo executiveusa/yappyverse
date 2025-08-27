@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE TOOLBOXX - Universal Agentic Patch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🛠️ THE TOOLBOXX</h1>
+            <p>Universal Agentic Patch Dashboard</p>
+            <div class="status-indicator" id="status">
+                <span class="status-dot"></span>
+                <span>Initializing...</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="tools-grid">
+                <div class="tool-card" data-tool="code-analysis">
+                    <div class="tool-icon">🔍</div>
+                    <h3>Code Analysis</h3>
+                    <p>Static analysis and quality metrics</p>
+                    <button onclick="executeTool('code-analysis', 'analyze')">Analyze</button>
+                </div>
+                
+                <div class="tool-card" data-tool="testing">
+                    <div class="tool-icon">🧪</div>
+                    <h3>Testing</h3>
+                    <p>Automated testing and coverage</p>
+                    <button onclick="executeTool('testing', 'run')">Run Tests</button>
+                </div>
+                
+                <div class="tool-card" data-tool="deployment">
+                    <div class="tool-icon">🚀</div>
+                    <h3>Deployment</h3>
+                    <p>CI/CD and environment management</p>
+                    <button onclick="executeTool('deployment', 'status')">Check Status</button>
+                </div>
+                
+                <div class="tool-card" data-tool="monitoring">
+                    <div class="tool-icon">📊</div>
+                    <h3>Monitoring</h3>
+                    <p>Performance metrics and alerting</p>
+                    <button onclick="executeTool('monitoring', 'metrics')">View Metrics</button>
+                </div>
+                
+                <div class="tool-card" data-tool="security">
+                    <div class="tool-icon">🛡️</div>
+                    <h3>Security</h3>
+                    <p>Vulnerability scanning and compliance</p>
+                    <button onclick="executeTool('security', 'scan')">Security Scan</button>
+                </div>
+                
+                <div class="tool-card" data-tool="documentation">
+                    <div class="tool-icon">📚</div>
+                    <h3>Documentation</h3>
+                    <p>Automated doc generation</p>
+                    <button onclick="executeTool('documentation', 'generate')">Generate Docs</button>
+                </div>
+                
+                <div class="tool-card" data-tool="collaboration">
+                    <div class="tool-icon">🤝</div>
+                    <h3>Collaboration</h3>
+                    <p>Team communication and reviews</p>
+                    <button onclick="executeTool('collaboration', 'team')">Team Status</button>
+                </div>
+            </div>
+
+            <div class="voice-control" style="display:none">
+                <h3>🎤 Voice Commands</h3>
+                <button id="voiceBtn" onclick="startVoiceRecognition()">Start Listening</button>
+                <div id="voiceStatus">Click to start voice commands</div>
+                <div id="voiceTranscript"></div>
+            </div>
+
+            <div class="output-panel">
+                <h3>📋 Output</h3>
+                <div id="output" class="output-content">
+                    Welcome to THE TOOLBOXX! Click on any tool to get started.
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

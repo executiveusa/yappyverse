@@ -1,0 +1,13 @@
+{
+  "id": "kb-getting-started",
+  "title": "Getting Started with THE TOOLBOXX",
+  "content": "# Getting Started with THE TOOLBOXX\n\nWelcome to THE TOOLBOXX! This universal agentic patch enhances your development workflow with powerful AI-driven tools and collaboration features.\n\n## Quick Start\n\n1. Initialize: `npm run toolboxx init`\n2. Start services: `npm run toolboxx start`\n3. Explore tools: `npm run toolboxx tools --list`\n\n## Key Features\n\n- **Seven Integrated Tools**: Complete development lifecycle coverage\n- **Voice Commands**: Hands-free development control\n- **Agent Communication**: Seamless multi-agent collaboration\n- **Monetization**: Built-in revenue tracking and analytics\n- **Security**: Comprehensive vulnerability scanning\n- **Documentation**: Automatic generation and maintenance\n\nFor detailed information, explore the other knowledge base articles.",
+  "tags": [
+    "getting-started",
+    "overview",
+    "setup"
+  ],
+  "author": "system",
+  "created": "2025-08-27T00:12:45.008Z",
+  "updated": "2025-08-27T00:12:45.008Z"
+}
